@@ -16,7 +16,7 @@
     <a href="https://github.com/Kawoogie/Arduino_ML_Prediction"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Kawoogie/Arduino_ML_Prediction/Screenshots">View Demo</a>
+    <a href="#output">View Demo</a>
     ·
     <a href="https://github.com/Kawoogie/Arduino_ML_Prediction/issues">Report Bug</a>
     ·
@@ -78,8 +78,8 @@ More significant figures can be displayed by adjusting the number of significant
    ```sh
    Serial.println(rfreg.predict(normalizedData), sigfigs_int);
    ```
-
-## Code Running
+<!-- OUTPUT -->
+## Output
 
 Here is a screenshot showing the code running and the output in the serial monitor
 
