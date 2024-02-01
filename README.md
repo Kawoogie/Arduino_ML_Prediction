@@ -1,3 +1,6 @@
+<a name="readme-top"></a>
+
+
 # Arduino_ML_Prediction
 
 <!-- PROJECT LOGO -->
@@ -34,6 +37,9 @@ https://github.com/eloquentarduino/tinymlgen
 The above repository uses Python to generate C code for running a machine learning model on a microprocessor. This is what generated the RandomForest.h model
 included in this repository.
 
+
+&nbsp;
+
 ## Getting Started
 
 To begin, the RandomForest.h header file and the x_ray_ml_prediction_test.ino file must be put into the same folder under the Arduino folder for the Arduino IDE.
@@ -43,6 +49,9 @@ The code should then be uploaded to an Arduino Nano 33 BLE.
 One the sketch is uploaded, open the serial monitor. You should see the Arduino making a prediction from the preinput values on line 15.
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+&nbsp;
 ## Code Overview
 
 The header file containing the machine learning model needs to be imported.
@@ -78,6 +87,11 @@ More significant figures can be displayed by adjusting the number of significant
    ```sh
    Serial.println(rfreg.predict(normalizedData), sigfigs_int);
    ```
+
+
+
+
+&nbsp;
 <!-- OUTPUT -->
 ## Output
 
@@ -89,3 +103,17 @@ Here is a screenshot showing the code running and the output in the serial monit
   <a href="https://github.com/Kawoogie/Arduino_ML_Prediction">
     <img src="Screenshots/Code Running.png" alt="screenshot" >
   </a>
+  </p>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+&nbsp;
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
