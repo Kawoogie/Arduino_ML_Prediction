@@ -16,7 +16,7 @@
     <a href="https://github.com/Kawoogie/Arduino_ML_Prediction"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Kawoogie/Arduino_ML_Prediction">View Demo</a>
+    <a href="https://github.com/Kawoogie/Arduino_ML_Prediction/Screenshots/Code Running.png">View Demo</a>
     ·
     <a href="https://github.com/Kawoogie/Arduino_ML_Prediction/issues">Report Bug</a>
     ·
